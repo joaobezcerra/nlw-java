@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  postgres_nlw:
+    container_name: postgres_nlw
+    image: postgres
+    ports:
+      - 5432
+    environment:
+      - POSTGRES_USER= usuario do postgr
+      - POSTGRES_PASSWORD= senha do postgres
+      - POSTGRES_DB= NomeDoDB
