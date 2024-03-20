@@ -10,3 +10,4 @@ services:
       - POSTGRES_USER= usuario do postgr
       - POSTGRES_PASSWORD= senha do postgres
       - POSTGRES_DB= NomeDoDB
+      
